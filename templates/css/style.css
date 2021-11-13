@@ -837,8 +837,8 @@ h3 {
 
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 18px 0;
-  background: #fff;
+  /* padding: 18px 0; */
+  background:linear-gradient(#12c2e9,#c471ed,#f64f59);
 }
 
 /* line 31, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -977,12 +977,15 @@ h3 {
 
 /* line 118, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #727272;
+  color: #f0d804;
+  background-color: black;
+  border-radius: 5px;
+  padding: 6px;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;
-  padding: 0px 0px 0px 0px;
+  /* padding: 0px 0px 0px 0px; */
   font-family: "Poppins", sans-serif;
   position: relative;
   text-transform: capitalize;
@@ -1052,7 +1055,7 @@ h3 {
 
 /* line 168, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #1F1F1F;
+  color: #3bbd08;
 }
 
 /* line 172, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -1131,7 +1134,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
+  background: linear-gradient(#FC466B,#3F5EFB);
 }
 
 @media (max-width: 767px) {
@@ -1232,14 +1235,16 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/healthcare.gif);
+  background-image: url('https://healthtechmagazine.net/sites/healthtechmagazine.net/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/202007/20200630_HT_Web_MonITor_Tech-Organizations-Should-Consider.jpg?itok=adOWwJ9x');
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/nurse.jpg);
+  background-image: url('https://st.depositphotos.com/1028979/4049/i/950/depositphotos_40493159-stock-photo-doctor-working-with-healthcare-icons.jpg');
 }
-
+.slider_bg_3{
+  background-image: url(../img/healthcare.gif);
+}
 /* line 8, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   height: 700px;
