@@ -2958,6 +2958,7 @@ h3 {
   -ms-transform: scale(1);
   transform: scale(1);
   width: 100%;
+  border-radius: 50%;
 }
 
 /* line 32, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_experts.scss */
