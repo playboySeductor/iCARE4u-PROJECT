@@ -36,7 +36,7 @@
         Breast cancer can occur in women and rarely in men. Symptoms of breast cancer include a lump in the breast, bloody discharge from the nipple and changes in the shape or texture of the nipple or breast. Its treatment depends on the stage of cancer. It may consist of chemotherapy, radiation, hormone therapy and surgery.<p>
         <p>Data Source: <a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">Breast Cancer Dataset</a>
         <br>The dataset has been taken from UCI machine learning repository. The main objective of the analysis is to perform classification of tumors i.e., benign(B) or malignant(M). A benign tumor is a tumor that does not invade its surrounding tissue or spread around the body. A malignant tumor is a tumor that may invade its surrounding tissue or spread around the body. This dataset consists of 569 rows and 33 columns.
-        <br><h5>Attribute Information:</h5>
+        <!-- <br><h5>Attribute Information:</h5>
         id: ID number
         <br>diagnosis: The diagnosis of breast tissues (M = malignant, B = benign)
         <br>radius_mean: mean of distances from center to points on the perimeter
@@ -68,10 +68,147 @@
         <br>concavity_worst: “worst” or largest mean value for severity of concave portions of the contour
         <br>concave points_worst: “worst” or largest mean value for number of concave portions of the contour
         <br>symmetry_worst
-        <br>fractal_dimension_worst: “worst” or largest mean value for “coastline approximation” — 1<p><br>
+        <br>fractal_dimension_worst: “worst” or largest mean value for “coastline approximation” — 1<p><br> -->
         
         <h6>Sample Input Values</h6>
-        <img style="max-width: 600px" src="/static/ccr.png/" class="center">
+         <img style="max-width: 600px" src="img/ccr.png" class="center"> 
+        <center>
+            <h3>
+                Attribute Information
+            </h3>
+            <table border="3px">
+                <th>Attribute</th>
+                <th>Values</th>
+                <tr>
+                    <td>id</td>
+                    <td>ID Number</td>
+                </tr>
+                <tr>
+                    <td>diagnosis</td>
+                    <td>The diagnosis of breast tissues (M = malignant, B = benign)</td>
+                </tr>
+                <tr>
+                    <td>radius_mean</td>
+                    <td>mean of distances from center to points on the perimeter</td>
+                </tr>
+                <tr>
+                    <td>texture_mean</td>
+                    <td>standard deviation of gray-scale values</td>
+                </tr>
+                <tr>
+                    <td>perimeter_mean</td>
+                    <td>mean size of the core tumor</td>
+                </tr>
+                <tr>
+                    <td>area_mean</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>smoothness_mean</td>
+                    <td>mean of local variation in radius lengths</td>
+                </tr>
+                <tr>
+                    <td>compactness_mean</td>
+                    <td>mean of perimeter² / area — 1.0</td>
+                </tr>
+                <tr>
+                    <td>concavity_mean</td>
+                    <td>mean of severity of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>concave points_mean</td>
+                    <td>mean for number of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>symmetry_mean</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>fractal_dimension_mean</td>
+                    <td>mean for “coastline approximation” — 1</td>
+                </tr>
+                <tr>
+                    <td>radius_se</td>
+                    <td>standard error for the mean of distances from center to points on the perimeter</td>
+                </tr>
+                <tr>
+                    <td>texture_se</td>
+                    <td>standard error for standard deviation of gray-scale values</td>
+                </tr>
+                <tr>
+                    <td>perimeter_se</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>area_se</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>smoothness_se</td>
+                    <td>standard error for local variation in radius lengths</td>
+                </tr>
+                <tr>
+                    <td>compactness_se</td>
+                    <td>standard error for perimeter² / area — 1.0</td>
+                </tr>
+                <tr>
+                    <td>concavity_se</td>
+                    <td>standard error for severity of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>concave points_se</td>
+                    <td>standard error for number of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>symmetry_se</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>fractal_dimension_se</td>
+                    <td>standard error for “coastline approximation” — 1</td>
+                </tr>
+                <tr>
+                    <td>radius_worst</td>
+                    <td>“worst” or largest mean value for mean of distances from center to points on the perimeter</td>
+                </tr>
+                <tr>
+                    <td>texture_worst</td>
+                    <td> “worst” or largest mean value for standard deviation of gray-scale values</td>
+                </tr>
+                <tr>
+                    <td>perimeter_worst</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>area_worst</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>smoothness_worst</td>
+                    <td>“worst” or largest mean value for local variation in radius lengths</td>
+                </tr>
+                <tr>
+                    <td>compactness_worst</td>
+                    <td>“worst” or largest mean value for perimeter² / area — 1.0</td>
+                </tr>
+                <tr>
+                    <td>concavity_worst</td>
+                    <td>“worst” or largest mean value for severity of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>concavity points_worst</td>
+                    <td>“worst” or largest mean value for number of concave portions of the contour</td>
+                </tr>
+                <tr>
+                    <td>symmetry_worst</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>fractal_dimension_worst</td>
+                    <td>“worst” or largest mean value for “coastline approximation” — 1</td>
+                </tr>
+            </table>
+        </center>
         
     </div>
 
@@ -155,7 +292,7 @@
         
       .bg-img {
           /* The image used */
-          background-image: url("/templates/static/breastcancer.jpg");
+          background-image: url("https://st.depositphotos.com/1763191/2579/v/950/depositphotos_25791257-stock-illustration-diagram-of-breast-cancer.jpg");
 
           min-height: 400px;
 
